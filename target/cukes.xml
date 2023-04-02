@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="48.401">
+<testcase classname="F01_Language | Users could choose any language" name="user could choose Arabic language successfully" time="19.379">
+<system-out><![CDATA[Given User go to home page..................................................passed
+And user choose a language to open the home page............................passed
+]]></system-out>
+</testcase>
+<testcase classname="F02_Search | User use search icon to start searching on nagwa lessons and choose one of this lessons" name="user could search for lesson name" time="28.874">
+<system-out><![CDATA[Given user clicks on search field...........................................passed
+And user search for lesson name like "addition".............................passed
+And user click on Enter Button..............................................passed
+Then user could search successfully.........................................passed
+And user click on 2nd lesson in the search result...........................passed
+Then user can navigate to its home page successfully........................passed
+And user go to worksheet section and click preview button...................passed
+And user can navigate to worksheet page successfully........................passed
+Then count number of questions displayed on web page and print the count....passed
+]]></system-out>
+</testcase>
+</testsuite>
